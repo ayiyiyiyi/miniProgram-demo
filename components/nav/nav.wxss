@@ -1,0 +1,6 @@
+/* components/nav/nav.wxss */
+.nav-top {
+    position: fixed;
+    left: 0;
+    top: 0;
+}

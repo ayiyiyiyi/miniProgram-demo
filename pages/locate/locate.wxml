@@ -1,0 +1,18 @@
+<view class="map-wrapper" style='height:{{mapHeight}}'>
+    <map class="map" id="map" latitude="{{location.lat}}" longitude="{{location.lng}}" show-location scale="17" bindregionchange="onChangeRegion"  >
+    	<image class="location-picker-marker" src="./../../assets/img/big_marker.png"/>
+        <view class='form'>
+            <view>{{address.recommend}}</view>
+            <view class="" hover-class="none" hover-stop-propagation="false">
+                {{address.address}}
+            </view>
+            <button class="default" size="default" type="default" bindtap = "toSearch"> to search
+            </button>
+            <button class="default" size="default" type="primary" bindtap = "confirmAddress"> comfirm 
+            </button>
+        </view>
+    </map>
+    <cover-view class="location-current" scroll-top="0">
+    	<cover-image class="location-current-img" src="./../../assets/img/current_location.png"/>
+    </cover-view>
+</view>

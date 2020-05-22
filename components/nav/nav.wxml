@@ -1,0 +1,5 @@
+<!--components/nav/nav.wxml-->
+<view class="nav-top" style="height:{{statusBarHeight}}px;background: #007fff;">
+    <text>components/nav/nav.wxml</text>
+    {{statusBarHeight}}
+</view>

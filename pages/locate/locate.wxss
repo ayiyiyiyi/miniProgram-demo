@@ -1,0 +1,45 @@
+
+.map-wrapper {
+  width: 100%;
+  position: relative;
+  height: 100%;
+}
+
+.map {
+  height: 100%;
+  width: 100%;
+}
+
+.location-picker-marker {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -40px;
+  margin-left: -14px;
+  width: 28px;
+  height: 40px;
+  z-index: 9999;
+}
+.location-current {
+  position: absolute;
+  right: 2%;
+  bottom: calc(2% + 210px);
+  background: #fff;
+  border-radius: 100%;
+  padding: 4px;
+  width: 24px;
+  height: 24px;
+}
+.location-current-img {
+  width: 24px;
+  height: 24px;
+}
+.form {
+  position: absolute;
+  bottom: 2%;
+  left: 2%;
+  width: 96%;
+  height: 200px;
+  background: #fff;
+  border-radius: 4px;
+}
